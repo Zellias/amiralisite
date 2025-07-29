@@ -140,7 +140,7 @@ const Header = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Vupayrs Portfolio
+            AmirAli's Portfolio
           </motion.button>
 
           {/* Right side - Section indicator */}

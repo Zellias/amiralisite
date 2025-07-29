@@ -74,7 +74,7 @@ const Hero = () => {
   const heroRef = useRef();
 
   // Vupayrs info
-  const mainText = ["Vupayrs"];
+  const mainText = ["AmirAli"];
   const subText = "Crypto Trader • Frontend Developer";
   const location = "Shiraz, Iran";
 
