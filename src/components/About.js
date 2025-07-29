@@ -85,16 +85,23 @@ const About = () => {
                   fontWeight: 300,
                 }}
               >
-                Hey, There I'm <span className="text-white font-medium">Amirali</span> and they tell me <span className="text-white font-medium">Vupayrs</span>. FrontEnd Developer and Trader from Shiraz, Iran, working in web development bot. My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+                I'm <span className="text-white font-medium">AmeeAli</span> – a multi-skilled trader and analyst with expertise in crypto, forex, and stock portfolios. I use a mix of technical and macro analysis to spot high-probability trades and manage risk effectively.
               </p>
-              
               <p
                 style={{
                   fontFamily: "'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, sans-serif",
                   fontWeight: 300,
                 }}
               >
-                I'm a highly skilled trader with a proven track record in both crypto and forex markets. I specialize in identifying lucrative opportunities and executing trades with precision, consistently achieving strong results.
+                Beyond the markets, I work as a community manager, building strong, engaged trader communities. I'm also passionate about iGaming and closely follow trends in Web3, GameFi, and the metaverse.
+              </p>
+              <p
+                style={{
+                  fontFamily: "'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, sans-serif",
+                  fontWeight: 300,
+                }}
+              >
+                With a sharp eye for market movements and a love for innovation, I thrive at the intersection of finance and tech. Always learning, always growing — and always ready to connect.
               </p>
             </div>
 
@@ -143,81 +150,114 @@ const About = () => {
               </h3>
               
               <div className="flex flex-col gap-3 md:gap-4">
-                {services.map((service, index) => (
-                  <motion.div
-                    key={service.title}
-                    className="p-3 md:p-4 border border-gray-800 rounded-xl bg-gray-900/20 hover:bg-gray-900/40 transition-all duration-300"
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6, delay: index * 0.1 }}
-                    viewport={{ once: true }}
-                    whileHover={{ scale: 1.02 }}
-                  >
-                    <div className="flex items-start space-x-3">
-                      <span className="text-xl md:text-2xl flex-shrink-0">{service.icon}</span>
-                      <div className="min-w-0 flex-1">
-                        <h4 className="text-sm md:text-lg font-medium text-white mb-1">{service.title}</h4>
-                        <p 
-                          className="text-gray-400 text-xs md:text-sm"
-                          style={{
-                            fontFamily: "'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, sans-serif",
-                            fontWeight: 300,
-                          }}
-                        >
-                          {service.description}
-                        </p>
-                      </div>
+                <motion.div
+                  className="p-3 md:p-4 border border-gray-800 rounded-xl bg-gray-900/20 hover:bg-gray-900/40 transition-all duration-300"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: 0 }}
+                  viewport={{ once: true }}
+                  whileHover={{ scale: 1.02 }}
+                >
+                  <div className="flex items-start space-x-3">
+                    <span className="text-xl md:text-2xl flex-shrink-0">💹</span>
+                    <div className="min-w-0 flex-1">
+                      <h4 className="text-sm md:text-lg font-medium text-white mb-1">
+                        Crypto &amp; Forex Trader
+                      </h4>
+                      <p
+                        className="text-gray-400 text-xs md:text-sm"
+                        style={{
+                          fontFamily: "'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, sans-serif",
+                          fontWeight: 300,
+                        }}
+                      >
+                        Active in the crypto and forex markets, leveraging technical and fundamental analysis to identify profitable opportunities and manage risk.
+                      </p>
                     </div>
-                  </motion.div>
-                ))}
+                  </div>
+                </motion.div>
+                <motion.div
+                  className="p-3 md:p-4 border border-gray-800 rounded-xl bg-gray-900/20 hover:bg-gray-900/40 transition-all duration-300"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: 0.1 }}
+                  viewport={{ once: true }}
+                  whileHover={{ scale: 1.02 }}
+                >
+                  <div className="flex items-start space-x-3">
+                    <span className="text-xl md:text-2xl flex-shrink-0">📈</span>
+                    <div className="min-w-0 flex-1">
+                      <h4 className="text-sm md:text-lg font-medium text-white mb-1">
+                        Stock Analyst
+                      </h4>
+                      <p
+                        className="text-gray-400 text-xs md:text-sm"
+                        style={{
+                          fontFamily: "'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, sans-serif",
+                          fontWeight: 300,
+                        }}
+                      >
+                        Conducting in-depth research and analysis of stocks to provide actionable insights and support investment decisions.
+                      </p>
+                    </div>
+                  </div>
+                </motion.div>
+                <motion.div
+                  className="p-3 md:p-4 border border-gray-800 rounded-xl bg-gray-900/20 hover:bg-gray-900/40 transition-all duration-300"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: 0.2 }}
+                  viewport={{ once: true }}
+                  whileHover={{ scale: 1.02 }}
+                >
+                  <div className="flex items-start space-x-3">
+                    <span className="text-xl md:text-2xl flex-shrink-0">👥</span>
+                    <div className="min-w-0 flex-1">
+                      <h4 className="text-sm md:text-lg font-medium text-white mb-1">
+                        Community Manager
+                      </h4>
+                      <p
+                        className="text-gray-400 text-xs md:text-sm"
+                        style={{
+                          fontFamily: "'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, sans-serif",
+                          fontWeight: 300,
+                        }}
+                      >
+                        Building and nurturing online communities, fostering engagement, and ensuring a positive and informative environment.
+                      </p>
+                    </div>
+                  </div>
+                </motion.div>
+                <motion.div
+                  className="p-3 md:p-4 border border-gray-800 rounded-xl bg-gray-900/20 hover:bg-gray-900/40 transition-all duration-300"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: 0.3 }}
+                  viewport={{ once: true }}
+                  whileHover={{ scale: 1.02 }}
+                >
+                  <div className="flex items-start space-x-3">
+                    <span className="text-xl md:text-2xl flex-shrink-0">🎰</span>
+                    <div className="min-w-0 flex-1">
+                      <h4 className="text-sm md:text-lg font-medium text-white mb-1">
+                        iGaming Enthusiast
+                      </h4>
+                      <p
+                        className="text-gray-400 text-xs md:text-sm"
+                        style={{
+                          fontFamily: "'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, sans-serif",
+                          fontWeight: 300,
+                        }}
+                      >
+                        Passionate about the iGaming industry, exploring trends, platforms, and the intersection of gaming and technology.
+                      </p>
+                    </div>
+                  </div>
+                </motion.div>
               </div>
             </div>
 
-            {/* Skills */}
-            <div>
-              <h3 
-                className="text-lg md:text-2xl font-light mb-3 md:mb-6 text-gray-200"
-                style={{
-                  fontFamily: "'SF Pro Display', -apple-system, BlinkMacSystemFont, system-ui, sans-serif",
-                }}
-              >
-                My skills
-              </h3>
-              
-              <div className="space-y-3 md:space-y-4">
-                {skills.map((skill, index) => (
-                  <motion.div
-                    key={skill.name}
-                    initial={{ opacity: 0, x: -20 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.6, delay: index * 0.1 }}
-                    viewport={{ once: true }}
-                  >
-                    <div className="flex justify-between items-center mb-2">
-                      <span 
-                        className="text-gray-200 font-medium text-xs md:text-sm"
-                        style={{
-                          fontFamily: "'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, sans-serif",
-                        }}
-                      >
-                        {skill.name}
-                      </span>
-                      <span className="text-gray-400 text-xs">{skill.percentage}%</span>
-                    </div>
-                    <div className="w-full bg-gray-800 rounded-full h-1.5">
-                      <motion.div
-                        className="h-1.5 rounded-full"
-                        style={{ backgroundColor: skill.color }}
-                        initial={{ width: 0 }}
-                        whileInView={{ width: `${skill.percentage}%` }}
-                        transition={{ duration: 1, delay: index * 0.2 }}
-                        viewport={{ once: true }}
-                      />
-                    </div>
-                  </motion.div>
-                ))}
-              </div>
-            </div>
+        
           </motion.div>
         </div>
       </div>
