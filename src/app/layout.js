@@ -14,13 +14,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "AmirAli's Portfolio | Developer, Designer, Lifelong Learner",
+  title: "AmirAli's Portfolio | , Designer, Lifelong Learner",
   description:
-    "AmirAli is a passionate developer, designer, and lifelong learner. Explore projects, skills, and contact information. Portfolio, web development, UI/UX, JavaScript, React, Next.js, Three.js, creative coding.",
+    "AmirAli is a passionate , designer, and lifelong learner. Explore projects, skills, and contact information. Portfolio, web development, UI/UX, JavaScript, React, Next.js, Three.js, creative coding.",
   keywords: [
     "AmirAli",
     "Portfolio",
-    "Web Developer",
     "Designer",
     "UI/UX",
     "JavaScript",
@@ -44,9 +43,9 @@ export const metadata = {
   creator: "AmirAli",
   publisher: "AmirAli",
   openGraph: {
-    title: "AmirAli's Portfolio | Developer, Designer, Lifelong Learner",
+    title: "AmirAli's Portfolio |  Designer, Lifelong Learner",
     description:
-      "Explore AmirAli's work as a developer, designer, and creative technologist. Modern web, UI/UX, and more.",
+      "Explore AmirAli's work as a  designer, and creative technologist. Modern web, UI/UX, and more.",
     url: "https://ameerali.xyz",
     siteName: "AmirAli's Portfolio",
     images: [
@@ -62,9 +61,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AmirAli's Portfolio | Developer, Designer, Lifelong Learner",
+    title: "AmirAli's Portfolio |  Designer, Lifelong Learner",
     description:
-      "Explore AmirAli's work as a developer, designer, and creative technologist. Modern web, UI/UX, and more.",
+      "Explore AmirAli's work as a  designer, and creative technologist. Modern web, UI/UX, and more.",
     site: "@vupayrs",
     creator: "@vupayrs",
     images: ["https://ameerali.xyz/og-image.png"],
@@ -124,22 +123,22 @@ export default function RootLayout({ children }) {
         />
         {/* Open Graph & Twitter meta tags for SEO */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="AmirAli's Portfolio | Developer, Designer, Lifelong Learner" />
-        <meta property="og:description" content="Explore AmirAli's work as a developer, designer, and creative technologist. Modern web, UI/UX, and more." />
+        <meta property="og:title" content="AmirAli's Portfolio |  Designer, Lifelong Learner" />
+        <meta property="og:description" content="Explore AmirAli's work as a  designer, and creative technologist. Modern web, UI/UX, and more." />
         <meta property="og:url" content="https://ameerali.xyz" />
         <meta property="og:site_name" content="AmirAli's Portfolio" />
         <meta property="og:image" content="https://ameerali.xyz/og-image.png" />
         <meta property="og:locale" content="en_US" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="AmirAli's Portfolio | Developer, Designer, Lifelong Learner" />
-        <meta name="twitter:description" content="Explore AmirAli's work as a developer, designer, and creative technologist. Modern web, UI/UX, and more." />
+        <meta name="twitter:title" content="AmirAli's Portfolio |  Designer, Lifelong Learner" />
+        <meta name="twitter:description" content="Explore AmirAli's work as a  designer, and creative technologist. Modern web, UI/UX, and more." />
         <meta name="twitter:site" content="@ameerali" />
         <meta name="twitter:creator" content="@ameerali" />
         <meta name="twitter:image" content="https://ameerali.xyz/og-image.png" />
         {/* Extra SEO */}
         <meta name="author" content="AmirAli" />
         <meta name="publisher" content="AmirAli" />
-        <meta name="keywords" content="AmirAli, Portfolio, Web Developer, Designer, UI/UX, JavaScript, React, Next.js, Three.js, Frontend, Creative Coding, Software Engineer, Personal Website, Projects, Contact, Resume, Modern Web, Accessibility, Performance, SEO, Open Source" />
+        <meta name="keywords" content="AmirAli, Portfolio, Designer, UI/UX, JavaScript, React, Next.js, Three.js, Frontend, Creative Coding, Software Engineer, Personal Website, Projects, Contact, Resume, Modern Web, Accessibility, Performance, SEO, Open Source" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sfpro antialiased`}

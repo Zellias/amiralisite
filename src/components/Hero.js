@@ -75,7 +75,7 @@ const Hero = () => {
 
   // Vupayrs info
   const mainText = ["AmirAli"];
-  const subText = "Crypto Trader • Frontend Developer";
+  const subText = "Crypto Trader";
   const location = "Shiraz, Iran";
 
   // Subtle mouse tracking

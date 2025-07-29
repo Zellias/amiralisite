@@ -8,12 +8,7 @@ const testimonials = [
     quote: "Working with AmirAli was a game-changer. His attention to detail and creative vision transformed our project.",
     name: "Jane Doe",
     title: "CEO, Innovate Inc.",
-  },
-  {
-    quote: "An exceptional developer with a keen eye for design. AmirAli consistently delivers high-quality, polished work.",
-    name: "John Smith",
-    title: "Lead Engineer, Tech Solutions",
-  },
+  }
   {
     quote: "The best of both worlds: a talented designer who can also write clean, efficient code. Highly recommended.",
     name: "Emily White",
